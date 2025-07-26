@@ -15,8 +15,9 @@ import sys
 import os
 # This gets the path to the 'legal' directory (two levels up from assistant.py)
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(_file_)))
+
 if project_root not in sys.path:
-    sys.path.insert(0, project_root)
+    sys.path.insert(0, project_root)
 
 # Page configuration
 st.set_page_config(
