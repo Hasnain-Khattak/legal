@@ -7,7 +7,7 @@ class Settings:
     # OpenAI Configuration
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-    PRIMARY_MODEL = "gpt-4o-mini"
+    PRIMARY_MODEL = "gpt-4o"
     REWRITE_QUERY_MODEL = "gpt-4o-mini"
     SCORE_DOCUMENTS_MODEL = "gpt-4o-mini"
     EMBEDDING_MODEL = "text-embedding-3-large"
