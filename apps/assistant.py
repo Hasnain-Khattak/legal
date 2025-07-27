@@ -1,7 +1,7 @@
 # This gets the path to the 'legal' directory (two levels up from assistant.py)
 import sys
 import os
-project_root = os.path.dirname(os.path.dirname(os.path.abspath(_file_)))
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
