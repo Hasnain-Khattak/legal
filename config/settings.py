@@ -21,7 +21,7 @@ class Settings:
     CHUNK_OVERLAP = 250
     
     # RAG Configuration
-    RETRIEVAL_TOP_K = 5
+    RETRIEVAL_TOP_K = 7
     RELEVANCE_THRESHOLD = 7
     MAX_RETRIEVAL_ATTEMPTS = 2
     
